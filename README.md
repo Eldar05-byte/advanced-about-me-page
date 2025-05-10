@@ -1,2 +1,2 @@
 # html-advanced-portofolio
-Portofolio made using advanced CSS
+About Me page made using advanced CSS
