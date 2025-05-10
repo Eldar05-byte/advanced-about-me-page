@@ -1,0 +1,206 @@
+/* Osnovne postavke */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  min-width: 360px;
+}
+
+/* Centriranje */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Kontejner za padding i max širinu */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  height: 100vh;
+}
+
+.main-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.main-header h2 {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+/* Sekcije */
+section {
+  padding: 40px 20px;
+}
+
+.section-title h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* About Me */
+.about-me-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Razmak između slike, naslova i teksta */
+}
+
+.about-me-text {
+  text-align: center;
+  width: 80%;
+  margin-top: 20px; /* Razmak od naslova */
+}
+
+.my-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.my-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* Education */
+.school-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.education-place {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 300px;
+}
+
+.education-place img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Skills */
+.skills-grid, .awards-grid, .contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-text {
+  text-align: center;
+  width: 80%;
+  margin-top: 20px; /* Razmak od naslova */
+  margin-left: auto;
+  margin-right: auto; /* Centriranje unutar roditeljskog elementa */
+}
+
+/* Buttons */
+.contact-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}
+
+/* Responsive dizajn */
+@media (max-width: 768px) {
+  .about-me-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .school-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-place {
+    width: 90%;
+  }
+
+  .main-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .main-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .section-title h3 {
+    font-size: 1.6rem;
+  }
+
+  .contact-button {
+    width: 80%;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-p {
+  margin: 0;
+}
+
+.footer-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+.footer-links a:hover {
+  color: #ddd;
+}

@@ -1,0 +1,23 @@
+/* Hobbies stranica */
+.hobbies-section {
+  padding: 40px 20px;
+}
+
+.hobbies-section h1 {
+  text-align: center;
+}
+
+.hobbies-section p {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hobbies-section ol {
+  padding-left: 20px;
+}
+
+.hobbies-section li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}

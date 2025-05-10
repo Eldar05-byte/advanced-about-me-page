@@ -1,0 +1,27 @@
+/* Kontakt stranica */
+.contact-section {
+  padding: 40px 20px;
+}
+
+.contact-section h1, .contact-section h2 {
+  text-align: center;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-section li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.contact-section a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  color: #555;
+}
